@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+        <title>Iqbal Chaidir</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="bg-yellow-300 sticky top-0 left-0 flex items-center justify-center z-50 py-3 shadow-lg">
+            <div class="container px-5 md:px-40">
+                <div class="flex items-center justify-between">
+                    <a href="#about"><img src="../assets/logo.png" alt="logo" class="w-10 h-10" /></a>
+                    <ul class="flex items-center gap-5 font-semibold">
+                        <li><a href="#about" class="hover:underline">ABOUT</a></li>
+                        <li><a href="#projects" class="hover:underline">PROJECTS</a></li>
+                        <li><a href="#contacts" class="hover:underline">CONTACTS</a></li>
+                        <li>
+                            <a href="#" class="text-white bg-black p-1 rounded-md">RESUME</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!-- home -->
+            <section id="about" class="pt-28 flex justify-center">
+                <div class="container px-5 lg:px-52 flex flex-col items-center justify-center text-center space-y-3">
+                    <img src="../assets/profil.png" alt="profil" class="w-56 h-56" />
+                    <p class="pt-5 text-2xl font-medium">Hi I'm Iqbal Chaidir</p>
+                    <p class="text-3xl md:text-4xl font-bold">FULLSTACK WEB DEVELOPER</p>
+                    <p class="md:text-lg">
+                        I specialize in fullstack web development with a focus on JavaScript, creating responsive, and
+                        user-friendly applications. My expertise covers both frontend and backend, ensuring seamless
+                        integration and optimal functionality.
+                    </p>
+                    <p class="text-2xl font-medium pt-10">My Favorite Stack</p>
+                    <div class="grid grid-cols-3 md:grid-cols-6 gap-10 pt-5">
+                        <img src="../assets/html.svg" alt="stack" class="stack-item" />
+                        <img src="../assets/css.svg" alt="stack" class="stack-item" />
+                        <img src="../assets/typescript.svg" alt="stack" class="stack-item" />
+                        <img src="../assets/react.svg" alt="stack" class="stack-item" />
+                        <img src="../assets/next.svg" alt="stack" class="stack-item" />
+                        <img src="../assets/node.svg" alt="stack" class="stack-item" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- projects -->
+            <section id="projects" class="pt-36 flex justify-center">
+                <div class="container px-5 md:px-40 flex flex-col items-center justify-center text-center space-y-3">
+                    <p class="text-3xl md:text-4xl font-bold">Projects</p>
+                    <p class="md:text-lg">Checkout some of my personal projects</p>
+                    <div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-5 w-full">
+                        <article class="project-card">
+                            <a href="projects/smart-kasir/index.html">
+                                <img src="../assets/smartKasir.png" alt="Smart Kasir" class="project-card__image" />
+                                <div class="project-card__title">SMART KASIR</div>
+                            </a>
+                        </article>
+                        <article class="project-card">
+                            <!-- <img src="../assets/smartKasir.png" alt="Smart Kasir" class="project-card__image" /> -->
+                            <div class="project-card__image bg-slate-600"></div>
+                            <div class="project-card__title">Title</div>
+                        </article>
+                        <article class="project-card">
+                            <!-- <img src="../assets/smartKasir.png" alt="Smart Kasir" class="project-card__image" /> -->
+                            <div class="project-card__image bg-slate-600"></div>
+                            <div class="project-card__title">Title</div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- contacts -->
+            <section id="contacts" class="pt-36 flex justify-center">
+                <div class="container px-5 md:px-40 flex flex-col items-center justify-center text-center space-y-3">
+                    <p class="text-3xl md:text-4xl font-bold">CONTACT ME:</p>
+                    <div class="grid grid-cols-3 gap-10 pt-5">
+                        <a href="https://github.com/IQchaidir" target="_blank">
+                            <img src="../assets/github.svg" alt="github" class="w-14 h-14 md:w-20 md:h-20"
+                        /></a>
+                        <a href="mailto:iqbal.chaidir@gmail.com">
+                            <img src="../assets/gmail.svg" alt="gmail" class="w-14 h-14 md:w-20 md:h-20"
+                        /></a>
+                        <a href="https://www.linkedin.com/in/iqbal-chaidir-8b80a4251" target="_blank">
+                            <img src="../assets/linkedin.svg" alt="linkedin" class="w-14 h-14 md:w-20 md:h-20"
+                        /></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="pt-16">
+            <div class="bg-black flex items-center justify-center p-1 text-white">
+                Copyright 2024@ All Rights Reserved.
+            </div>
+        </footer>
+    </body>
+</html>
