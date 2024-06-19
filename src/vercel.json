@@ -1,8 +1,0 @@
-{
-    "builds": [
-        {
-            "use": "@vercel/static"
-        }
-    ],
-    "routes": { "src": "/assets/(.*)", "dest": "assets/$1" }
-}
