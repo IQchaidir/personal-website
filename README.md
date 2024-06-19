@@ -6,11 +6,11 @@ Welcome to my personal website! This platform is designed to showcase informatio
 
 ## Design
 
-For the design mockup of this website, you can view it on [Figma](link_to_figma).
+For the design mockup of this website, you can view it on [Figma](https://www.figma.com/design/d0icuSKoSJY6LWwYFNpfmf/Personal-Website?node-id=2321-7&t=aWoHcncAARI2Kv4q-0).
 
 ## Features
 
--   **Home**: Provides an overview about me.
+-   **About**: Provides an overview about me.
 -   **Projects**: Lists my open-source projects, along with the technologies used.
 -   **Contact**: Provides links to my social media profiles for contacting me.
 -   **Project Details**: Provides detailed information about each project, including features, technologies used, and demo/github link.
@@ -19,12 +19,12 @@ For the design mockup of this website, you can view it on [Figma](link_to_figma)
 
 -   HTML5
 -   CSS
+-   Tailwinds
 
 ## Preview
 
-![home](home.jpg)
-![projects](projects.jpg)
-![contact](contact.jpg)
+![about](/assets/about.png)
+![projects](/assets/projectdetails.png)
 
 ## Author
 
@@ -32,5 +32,5 @@ Iqbal Chaidir
 
 ## Links
 
--   [Website URL](link_to_website)
--   [GitHub Repo](link_to_repo)
+-   [Website URL](https://iqbalchaidir.vercel.app/)
+-   [GitHub Repo](https://github.com/IQchaidir/personal-website)
