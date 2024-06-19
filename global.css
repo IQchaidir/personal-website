@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .wrapper {
+        @apply container px-5 md:px-40;
+    }
+    .navbar {
+        @apply flex items-center gap-5 font-semibold;
+    }
+    .navbar-menu {
+        @apply hover:underline;
+    }
+    .about {
+        @apply pt-28 flex justify-center;
+    }
+    .tech-stack-icon {
+        @apply w-16 h-16 md:w-20 md:h-20;
+    }
+    .contact-icon {
+        @apply w-10 h-10 md:w-20 md:h-20 transition-transform duration-300 ease-in-out hover:transform hover:scale-110;
+    }
+}
+
 .stack-item {
     width: 5rem;
     height: 5rem;
@@ -25,7 +46,7 @@
 }
 
 .project-card__title {
-    background-color: #fcd34d;
+    background-color: #fecd41;
     color: #1a202c;
     padding: 0.75rem;
     font-size: 1.25rem;

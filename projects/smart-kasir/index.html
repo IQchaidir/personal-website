@@ -3,19 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Iqbal Chaidir | Projects A</title>
+        <title>Iqbal Chaidir | SMARTKASIR</title>
         <link href="../../dist/style.css" rel="stylesheet" />
+        <link rel="icon" type="png" href="/assets/logo.png" />
     </head>
     <body>
         <!-- navbar -->
-        <nav class="bg-yellow-300 sticky top-0 left-0 flex items-center justify-center z-50 py-3 shadow-lg">
-            <div class="container px-5 md:px-40">
+        <nav class="bg-[#FECD41] sticky top-0 left-0 flex items-center justify-center z-50 py-3 shadow-lg">
+            <div class="wrapper">
                 <div class="flex items-center justify-between">
                     <a href="../../index.html"><img src="../../../assets/logo.png" alt="logo" class="w-10 h-10" /></a>
-                    <ul class="flex items-center gap-5 font-semibold">
-                        <li><a href="../../index.html#about" class="hover:underline">ABOUT</a></li>
-                        <li><a href="../../index.html#projects" class="hover:underline">PROJECTS</a></li>
-                        <li><a href="../../index.html#contacts" class="hover:underline">CONTACTS</a></li>
+                    <ul class="navbar">
+                        <li><a href="../../index.html#about" class="navbar-menu">ABOUT</a></li>
+                        <li><a href="../../index.html#projects" class="navbar-menu">PROJECTS</a></li>
+                        <li><a href="../../index.html#contacts" class="navbar-menu">CONTACTS</a></li>
                         <li>
                             <a href="#" class="text-white bg-black p-1 rounded-md">RESUME</a>
                         </li>
@@ -25,43 +26,70 @@
         </nav>
 
         <main>
-            <section id="project-info" class="pt-10 flex justify-center">
-                <div class="container px-5 md:px-40 flex flex-col items-center justify-center text-center space-y-3">
-                    <img src="../../../assets/smartKasir.png" alt="logo project" class="w-full rounded-md" />
-                    <div id="project-header">
-                        <h1>title projects</h1>
-                        <div class="link-project">
-                            <img src="" alt="github" />
-                            <a href="#">URL Repo</a>
-                        </div>
-                        <div class="link-project">
-                            <img src="" alt="web" />
-                            <a href="#">URL Demo Live</a>
+            <!-- Project Description -->
+            <section id="project-info" class="pt-20 flex flex-col items-center">
+                <div id="project-header" class="wrapper flex justify-between">
+                    <p class="text-2xl font-bold">SMART KASIR</p>
+                    <div class="flex">
+                        <div class="flex items-center gap-2">
+                            <img src="/assets/github.svg" alt="github" class="w-10 h-10" />
+                            <a href="https://github.com/IQchaidir/CashierApp" target="_blank"
+                                ><p class="text-xl underline">Repo Github</p></a
+                            >
                         </div>
                     </div>
-                    <hr />
-                    <div class="tech-stack">
-                        <img src="images/stack.png" alt="stack" />
-                        <img src="images/stack.png" alt="stack" />
-                        <img src="images/stack.png" alt="stack" />
-                        <img src="images/stack.png" alt="stack" />
-                        <img src="images/stack.png" alt="stack" />
-                        <img src="images/stack.png" alt="stack" />
-                    </div>
-                    <div id="project-description">
-                        <p>
-                            SmartKasir is an application designed for conducting product purchase transactions. It has
-                            two roles for managing the application: Cashier and Admin. In this context, Cashiers create
-                            transactions by adding products to be purchased and then selecting which products to buy.
-                            Meanwhile, Admins manage products and Cashiers.
-                        </p>
+                </div>
+                <div class="wrapper">
+                    <hr class="border-black border-2 my-2" />
+                </div>
+                <div class="wrapper pt-5 flex flex-col md:flex-row justify-between gap-5">
+                    <img src="../../../assets/smartkasir.png" alt="logo project" class="rounded-md md:w-1/2" />
+                    <div class="flex flex-col md:w-1/2 justify-between">
+                        <div id="project-description" class="text-xl text-justify">
+                            <p>
+                                SmartKasir is an application designed for conducting product purchase transactions. It
+                                has two roles for managing the application: Cashier and Admin. In this context, Cashiers
+                                create transactions by adding products to be purchased and then selecting which products
+                                to buy. Meanwhile, Admins manage products and Cashiers.
+                            </p>
+                        </div>
+                        <div class="tech-stack pt-3 flex justify-between">
+                            <img src="/assets/express.svg" alt="stack" class="tech-stack-icon" />
+                            <img src="/assets/next.svg" alt="stack" class="tech-stack-icon" />
+                            <img src="/assets/mysql.svg" alt="stack" class="tech-stack-icon" />
+                            <img src="/assets/typescript.svg" alt="stack" class="tech-stack-icon" />
+                            <img src="/assets/node.svg" alt="stack" class="tech-stack-icon" />
+                        </div>
                     </div>
                 </div>
             </section>
-            <section id="project-picture">
-                <div class="project-screenshot">
-                    <h3>info</h3>
-                    <img src="images/screenshot" alt="screenshot-project" />
+            <!-- Screenshot Project -->
+            <section id="project-picture" class="pt-36 flex items-center justify-center">
+                <div class="wrapper grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-lg font-semibold">Cashier Page</p>
+                        <img src="/assets/posApp.png" alt="screenshot-project" class="border-2" />
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold">Dashboard Page</p>
+                        <img src="/assets/dashboard.png" alt="screenshot-project" class="border-2" />
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold">Transactions Page</p>
+                        <img src="/assets/transaction.png" alt="screenshot-project" class="border-2" />
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold">Shift Page</p>
+                        <img src="/assets/shift.png" alt="screenshot-project" class="border-2" />
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold">List Cashier Page</p>
+                        <img src="/assets/cashier.png" alt="screenshot-project" class="border-2" />
+                    </div>
+                    <div>
+                        <p class="text-lg font-semibold">Create Product Page</p>
+                        <img src="/assets/createProduct.png" alt="screenshot-project" class="border-2" />
+                    </div>
                 </div>
             </section>
         </main>
